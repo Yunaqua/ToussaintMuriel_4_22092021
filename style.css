@@ -677,13 +677,14 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
+
 
 .h1 {
     font-size: 20px;
@@ -769,13 +770,26 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+/*
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+}
+ modification */
+.bgc-atomic-tangerine {
+    background-color: #864D28;
 }
 
 .tc-white {
     color: #F3976C!important;
+}
+/* modification*/
+h1 .tc-white {
+    color: #F3976C!important;
+}
+
+/* modification*/
+p.text-center.mg-lg.tc-white.tight-width-whitespace {
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
