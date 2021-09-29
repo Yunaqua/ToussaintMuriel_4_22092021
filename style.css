@@ -300,6 +300,11 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .navbar-brand img {
     max-height: 200px;
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
