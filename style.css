@@ -301,7 +301,7 @@ a:hover {
     line-height: 44px;
 }
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     height: auto;
 }
